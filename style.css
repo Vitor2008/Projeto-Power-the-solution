@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.center-menu{
+    max-width: 1100px;
+    margin:0 auto;
+    padding:0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    background-color: white;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+.logo img{
+    width: 20%;
+    position: relative;
+    border: 2px solid rgb(86, 154, 237);
+    border-radius: 50%;
+}
+
+.menu{
+    margin-top: -55px;
+    width: 100%;
+    text-align: right;
+}
+
+.menu a{
+    color: #16507b;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.menu a:hover{
+    color: #007bff;
+}
+
+.menu .btn-menu{
+    background-color: rgb(104, 46, 240);
+    display: inline-block;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 6px;
+    transition: transform .4s;
+}
+
+.menu .btn-menu:hover{
+    background-color: #16507b;
+    color: white;
+    transform: scale(1.2);
+}
+
+section.main{
+    background-image: url(fundo.jpeg);
+    padding: 70px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main-cta{
+    width: 100%;
+    margin: 60px 0;
+    text-align: center;
+}
+
+.main-cta span{
+    color: rgb(225, 7, 241);
+    font-size: 25px;
+}
+
+.main-cta h2{
+    color: white;
+    font-size: 40px;
+}
+
+.main-cta p{
+    color: white;
+    font-size: 19px;
+    margin: 10px 0;
+}
+
+.main-cta a{
+    background-color: rgb(104, 46, 240);
+    display: inline-block;
+    padding: 8px 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 16px;
+    border: 0;
+    cursor: pointer;
+    transition: transform .4s;
+}
+
+.main-cta a:hover{
+    background-color: #16507b;
+    color: white;
+    transform: scale(1.2);
+}
+
+section.produtos{
+    background-color: rgb(1, 1, 42);
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+}
+
+section.produtos h3{
+    text-transform: uppercase;
+}
+
+
+.produto-single{
+    text-align: center;
+}
+
+
+.center-produto-container{
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-around;
+    padding:0 2%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.center-produto-container a{
+    background-color: rgb(104, 46, 240);
+    display: inline-block;
+    padding: 10px 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 15px;
+    border: 0;
+    cursor: pointer;
+    transition: transform .4s;
+}
+
+.center-produto-container a:hover{
+    background-color: #16507b;
+    color: white;
+    transform: scale(1.2);
+}
+
+.produto-single {
+    width:100%;
+    margin: 0 10px;
+}
+
+.produto-single h3{
+    text-align: center;
+    background-color: rgb(1, 1, 42);
+    border:1px solid white;
+    padding: 8px;
+}
+
+.produto-single p{
+    background-color: white;
+    padding: 8px;
+    color: black;
+}
+
+.produto-single img{
+    width:100%;
+    display: block;
+}
+
+.btn-comprar {
+    width: 100%;
+    height: 290px;
+    background-color: rgb(2, 2, 85);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+
+.btn-comprar p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.btn-card{
+    background-color: rgb(104, 46, 240);
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 20px;
+    border-radius: 30px;
+    transition: .4s;
+    
+}
+
+.btn-card:hover{
+    background-color: transparent;
+    border: 2px solid rgb(104, 46, 240);
+    cursor: pointer;
+}
+
+
+.produto-single-dois{
+    width:100%;
+    margin: 0 10px;
+}
+
+.produto-single-dois h3{
+    text-align: center;
+    background-color: rgb(1, 1, 42);
+    border:1px solid white;
+    padding: 8px;
+}
+
+.produto-single-dois p{
+    background-color: white;
+    padding: 8px;
+    color: black;
+}
+
+.produto-single-dois img{
+    width: 80%;
+    height: 300px;
+    display: block;
+}
+
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 360px;
+    background-color: rgb(17, 2, 60);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h6{
+    font-size: 25px;
+    color: #fff;
+}
+
+footer p{
+    color: #fff;
+    font-size: 15px;
+    width: 500px;
+    text-align: center;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    line-height: 23px;
+}
+
+.Redes-sociais{
+    display: flex;
+    
+}
+
+.Redes-sociais a{
+    background-color: rgb(104, 46, 240);;
+    width: 45px;
+    height: 45px;
+    padding: 15px;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.Redes-sociais a:hover{
+    transform: scale(1.2);
+    transition: .3s;
+}
+
+.end{
+    position: absolute;
+    color: blue;
+    bottom: 35px;
+    font-size: 14px ;
+}
+
+@media screen and (max-width: 768px){
+    .menu{
+        margin-top: -50px;
+        width: 180%;
+        }
+    
+        .menu a{
+            font-size: 12px;
+            text-decoration: none;
+            text-align: center;
+        }
+    
+        .menu .btn-menu{
+            width: 60%;
+            text-align: center;
+        }
+    
+        .logo{
+            width: 80%;
+            margin-top: 5px;
+        }
+
+        .btn-comprar{
+            text-align: center;
+            padding: 20px;
+        }
+
+        .produtos h3{
+            padding: 20px;
+        }
+
+        .produtos p{
+            padding: 20px;
+            font-size: 18px;
+        }
+
+        .center-produto-container{
+            width: 100%;
+            flex-direction: column;
+        }
+
+        .produto-single{
+            padding: 25px;
+            margin-top: 5px;
+        }
+
+        .produto-single-dois{
+            padding: 50px;
+            margin-top: 5px;
+        }
+
+        .produto-single-dois img{
+            width: 80%;
+            height: 300px;
+        }
+
+
+}
